@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        h4 {
+            width: 170px;
+            margin: 40px;
+            font-family: sans-serif;
+            font-size: 15px;
+            background-color: lightcyan;
+        }
+        #hori{
+            width: 180px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 40px;
+            padding: 10px;
+            background-color: lightcyan;
+            width: 180px;
+            border: 1px solid black;
+            box-shadow: inset 0 0 0 10px white; /* Inner border */
+
+        }
+        .navs{
+            display: flex;
+        }
+        
+        #hnav {
+            display: flex; 
+            list-style-type: none;
+            background-color: lightgray;
+            width: 350px;
+            border: 1px solid black;
+            box-shadow: inset 0 0 0 10px white; /* Inner border */
+
+
+        }
+        #hnav a:hover{
+            background-color: gray;
+        }
+
+        li a {
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+
+        }
+
+        li a:hover {
+            background-color:rgb(243, 155, 61);
+            color: white;
+        }
+        h3{
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS Task 2</h3>
+    
+    <h4>Vertical Navigation Bar</h4> 
+
+
+    <div class="navs">
+
+    <div class="verti-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Bootstrap</a></li>
+        </ul>
+    </div>
+    
+    <div class="hori-nav">
+        <h4 id="hori">Horiontal Navigation Bar</h4>
+        <ul id="hnav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Bootstrap</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
